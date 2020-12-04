@@ -4,14 +4,15 @@ main() {
   runApp(new PerguntaApp());
 }
 
-class PerguntaApp extends StatelessWidget {
+class PerguntaAppState extends State<PerguntaApp> {
   var perguntaSelecionada = 0;
-
   void responder() {
     perguntaSelecionada++;
     print(perguntaSelecionada);
   }
+}
 
+class PerguntaApp extends StatefulWidget {
   @override
   Widget build(BuildContext context) {
     final perguntas = [
