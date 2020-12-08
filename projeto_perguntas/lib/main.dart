@@ -12,28 +12,28 @@ class _PerguntaAppState extends State<PerguntaApp> {
     {
       'texto': 'Qual é a sua cor favorita?',
       'respostas': [
-        'Preto',
-        'Vermelho',
-        'Verde',
-        'Branco',
+        {'texto': 'Preto', 'pontuação': 9},
+        {'texto': 'Vermelho', 'pontuação': 8},
+        {'texto': 'Verde', 'pontuação': 4},
+        {'texto': 'Branco', 'pontuação': 10}
       ],
     },
     {
       'texto': 'Qual é o seu animal favorito?',
       'respostas': [
-        'Coelho',
-        'Cobra',
-        'Elefante ',
-        'Leão',
+        {'texto': 'Coelho', 'pontuação': 10},
+        {'texto': 'Cobra', 'pontuação': 9},
+        {'texto': 'Elefante ', 'pontuação': 7},
+        {'texto': 'Leão', 'pontuação': 8}
       ],
     },
     {
       'texto': 'Qual seu instrutor favorito?',
       'respostas': [
-        'Maria',
-        'João',
-        'Léo ',
-        'Pedro',
+        {'texto': 'Maria', 'pontuação': 5},
+        {'texto': 'João', 'pontuação': 6},
+        {'texto': 'Léo ', 'pontuação': 7},
+        {'texto': 'Pedro', 'pontuação': 3}
       ],
     }
   ];
